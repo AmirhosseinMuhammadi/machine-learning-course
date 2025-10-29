@@ -134,8 +134,5 @@ This course breaks from traditional ML syllabus by:
 ## Contributions
 It is possible submit pull requests, report bugs, or suggest new features.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Additional Resources
 References are provided at the end of each chapter and are recommended for studing more.
