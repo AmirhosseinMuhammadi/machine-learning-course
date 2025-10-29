@@ -79,6 +79,7 @@ representation-learning-foundations/
 ├── .gitignore         # Git ignore rules
 └── README.md          # This file
 ```
+--- figures
 
 ## Requirements
 The project requires the following Python packages which are also specified in `requirements.txt`:
