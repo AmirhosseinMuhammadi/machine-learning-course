@@ -54,10 +54,20 @@ jupyter notebook
 jupyter lab
 ```
 
+5. Adding New Dependencies (if needed)
+```bash
+pip install package_name
+pip freeze > requirements.txt
+```
+
 ## Project Structure
 ```text
+
 representation-learning-foundations/
 ├── api/              # API application (Flask/FastAPI)
+│   ├── flask_app/
+│   └── fastapi_app/
+|
 ├── notebooks/        # Exploration and analysis
 │   ├── chapter_01_introduction.ipynb
 │   ├── chapter_02_python_essentials.ipynb
@@ -68,7 +78,7 @@ representation-learning-foundations/
 │   ├── chapter_07_sequences_and_creativity.ipynb
 │   └── chapter_08_agentic_ai.ipynb
 |
-|*** figures/          # External images used in notebooks
+├── figures/          # External images used in notebooks
 ├── data/
 │   ├── raw/           # Raw data files
 │   └── processed/     # Processed data files
@@ -79,7 +89,23 @@ representation-learning-foundations/
 ├── .gitignore         # Git ignore rules
 └── README.md          # This file
 ```
---- figures
+
+## Running the APIs
+
+### Flask
+```bash
+cd api/flask_app
+python app.py # or python3 app.py
+# APIs available at http://localhost:5000
+```
+
+### FastAPI
+```bash
+cd api/fastapi_app  
+python3 main.py
+# APIs available at http://localhost:8000
+# Docs at http://localhost:8000/docs
+```
 
 ## Requirements
 The project requires the following Python packages which are also specified in `requirements.txt`:
@@ -96,6 +122,7 @@ tensorflow
 flask
 fastapi[standard]
 ```
+
 ## Learning Approach: Narrative-Driven Methodology
 This course breaks from traditional ML syllabus by:
 
@@ -104,14 +131,7 @@ This course breaks from traditional ML syllabus by:
 - Modern Perspective: Emphasis on representation learning as the foundation
 - Project-Based: End-to-end projects reinforce conceptual understanding
 
-## Development
-1. Adding New Dependencies
-```bash
-pip install package_name
-pip freeze > requirements.txt
-```
-
-## contributions
+## Contributions
 It is possible submit pull requests, report bugs, or suggest new features.
 
 ## License
