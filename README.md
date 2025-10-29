@@ -30,9 +30,15 @@ cd representation-learning-foundations
 
 2. Setting up a Virtual Environment
 ```bash
+# Creating a virtual environment
 python3 -m venv ml_venv
+
+# Activate it
 source ml_venv/bin/activate     #Linux/Mac
 ml_venv\Scripts\activate        # Windows
+
+# Deactivate the virtual environment when no longer is needed
+deactivate
 ```
 
 3. Installing Dependencies
@@ -61,7 +67,8 @@ representation-learning-foundations/
 │   ├── chapter_06_unsupervised_learning.ipynb
 │   ├── chapter_07_sequences_and_creativity.ipynb
 │   └── chapter_08_agentic_ai.ipynb
-│
+|
+|--- figures/          # External images used in notebooks
 ├── data/
 │   ├── raw/           # Raw data files
 │   └── processed/     # Processed data files
@@ -76,16 +83,38 @@ representation-learning-foundations/
 ## Requirements
 The project requires the following Python packages which are also specified in `requirements.txt`:
 ```text
-jupyter>=1.0.0
-numpy>=1.21.0
-pandas>=1.3.0
-matplotlib>=3.5.0
-seaborn>=0.11.0
-scikit-learn>=1.0.0
-torch>=1.9.0
-torchvision>=0.10.0
-tensorflow>=2.6.0
-plotly>=5.3.0
-ipywidgets>=7.6.0
-tqdm>=4.62.0
+jupyter
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+keras
+torch
+tensorflow
+flask
+fastapi[standard]
 ```
+## Learning Approach: Narrative-Driven Methodology
+This course breaks from traditional ML syllabus by:
+
+- Storyline Progression: Concepts build upon each other in a logical narrative flow
+- Practical Focus: Each chapter includes hands-on implementations
+- Modern Perspective: Emphasis on representation learning as the foundation
+- Project-Based: End-to-end projects reinforce conceptual understanding
+
+## Development
+1. Adding New Dependencies
+```bash
+pip install package_name
+pip freeze > requirements.txt
+```
+
+## contributions
+It is possible submit pull requests, report bugs, or suggest new features.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Additional Resources
+References are provided at the end of each chapter and are recommended for studing more.
