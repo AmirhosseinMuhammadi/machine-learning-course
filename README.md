@@ -49,6 +49,7 @@ jupyter lab
 ```
 
 ## Project Structure
+```text
 representation-learning-foundations/
 ├── api/              # API application (Flask/FastAPI)
 ├── notebooks/        # Exploration and analysis
@@ -70,6 +71,7 @@ representation-learning-foundations/
 ├── requirements.txt   # Python dependencies
 ├── .gitignore         # Git ignore rules
 └── README.md          # This file
+```
 
 ## Requirements
 The project requires the following Python packages which are also specified in `requirements.txt`:
