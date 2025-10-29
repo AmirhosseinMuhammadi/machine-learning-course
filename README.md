@@ -68,7 +68,7 @@ representation-learning-foundations/
 │   ├── chapter_07_sequences_and_creativity.ipynb
 │   └── chapter_08_agentic_ai.ipynb
 |
-|--- figures/          # External images used in notebooks
+|*** figures/          # External images used in notebooks
 ├── data/
 │   ├── raw/           # Raw data files
 │   └── processed/     # Processed data files
