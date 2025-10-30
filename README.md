@@ -3,19 +3,17 @@ Foundations of Representation Learning is a narrative-driven course that unfolds
 
 ## Table of Contents
 
-- [Foundations of Representation Learning](#foundations-of-representation-learning)
-  - [Course Narrative](#course-narrative)
-  - [Prerequisites](#prerequisites)
-  - [Installation & Setup](#installation--setup)
-  - [Project Structure](#project-structure)
-  - [Running the APIs](#running-the-apis)
-    - [Flask](#flask)
-    - [FastAPI](#fastapi)
-  - [Requirements](#requirements)
-  - [Learning Approach: Narrative-Driven Methodology](#learning-approach-narrative-driven-methodology)
-  - [Contributions](#contributions)
-  - [Additional Resources](#additional-resources)
-
+- [Course Narrative](#course-narrative)
+- [Prerequisites](#prerequisites)
+- [Installation & Setup](#installation--setup)
+- [Project Structure](#project-structure)
+- [Running the APIs](#running-the-apis)
+  - [Flask](#flask)
+  - [FastAPI](#fastapi)
+- [Requirements](#requirements)
+- [Learning Approach: Narrative-Driven Methodology](#learning-approach-narrative-driven-methodology)
+- [Contributions](#contributions)
+- [Additional Resources](#additional-resources)
 
 ## Course Narrative
 This course takes you on a journey through the fundamental concepts of representation learning, building each chapter upon the previous one to create a cohesive understanding of how modern AI systems learn and represent information.
