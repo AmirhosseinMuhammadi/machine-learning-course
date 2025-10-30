@@ -149,4 +149,4 @@ This course breaks from traditional ML syllabus by:
 It is possible submit pull requests, report bugs, or suggest new features.
 
 ## Additional Resources
-References are provided at the end of each chapter and are recommended for studing more.
+References are provided at the end of each chapter and are recommended for studying more.
