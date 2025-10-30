@@ -104,6 +104,22 @@ representation-learning-foundations/
 └── README.md          # This file
 ```
 
+## Requirements
+The project requires the following Python packages which are also specified in `requirements.txt`:
+```text
+jupyter
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+keras
+torch
+tensorflow
+flask
+fastapi[standard]
+```
+
 ## Running the APIs
 
 ### Flask
@@ -119,22 +135,6 @@ cd api/fastapi_app
 python3 main.py
 # APIs available at http://localhost:8000
 # Docs at http://localhost:8000/docs
-```
-
-## Requirements
-The project requires the following Python packages which are also specified in `requirements.txt`:
-```text
-jupyter
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-keras
-torch
-tensorflow
-flask
-fastapi[standard]
 ```
 
 ## Learning Approach: Narrative-Driven Methodology
