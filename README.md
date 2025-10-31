@@ -1,20 +1,6 @@
 # Foundations of Representation Learning
 Foundations of Representation Learning is a narrative-driven course that unfolds like a novel. Unlike traditional categorization-based approaches (supervised vs unsupervised), this course follows a conceptual storyline grounded in modern representation learning principles. The curriculum emphasizes end-to-end projects and practical implementation over theoretical categorization.
 
-## Table of Contents
-
-- [Course Narrative](#course-narrative)
-- [Prerequisites](#prerequisites)
-- [Installation & Setup](#installation--setup)
-- [Project Structure](#project-structure)
-- [Requirements](#requirements)
-- [Running the APIs](#running-the-apis)
-  - [Flask](#flask)
-  - [FastAPI](#fastapi)
-- [Learning Approach: Narrative-Driven Methodology](#learning-approach-narrative-driven-methodology)
-- [Contributions](#contributions)
-- [Additional Resources](#additional-resources)
-
 ## Course Narrative
 This course takes you on a journey through the fundamental concepts of representation learning, building each chapter upon the previous one to create a cohesive understanding of how modern AI systems learn and represent information.
 
@@ -104,22 +90,6 @@ representation-learning-foundations/
 └── README.md          # This file
 ```
 
-## Requirements
-The project requires the following Python packages which are also specified in `requirements.txt`:
-```text
-jupyter
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-keras
-torch
-tensorflow
-flask
-fastapi[standard]
-```
-
 ## Running the APIs
 
 ### Flask
@@ -137,6 +107,22 @@ python3 main.py
 # Docs at http://localhost:8000/docs
 ```
 
+## Requirements
+The project requires the following Python packages which are also specified in `requirements.txt`:
+```text
+jupyter
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+keras
+torch
+tensorflow
+flask
+fastapi[standard]
+```
+
 ## Learning Approach: Narrative-Driven Methodology
 This course breaks from traditional ML syllabus by:
 
@@ -149,4 +135,4 @@ This course breaks from traditional ML syllabus by:
 It is possible submit pull requests, report bugs, or suggest new features.
 
 ## Additional Resources
-References are provided at the end of each chapter and are recommended for studying more.
+References are provided at the end of each chapter and are recommended for studing more.
