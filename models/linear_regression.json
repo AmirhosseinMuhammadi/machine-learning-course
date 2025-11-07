@@ -1,0 +1,12 @@
+{
+    "model_type": "linear_regression",
+    "version": "1.0.0",
+    "coefficients": [
+        13.029750947463505,
+        80.89012788363026
+    ],
+    "feature_names": [
+        "volume"
+    ],
+    "target_name": "co2_emission"
+}
