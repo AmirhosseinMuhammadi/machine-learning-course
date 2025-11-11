@@ -83,6 +83,7 @@ representation-learning-foundations/
 │   ├── raw/           # Raw data files
 │   └── processed/     # Processed data files
 │
+├── models/            # Output ML models
 ├── src/               # Source code modules and production-ready ML code
 ├── tests/             # Shared tests
 ├── requirements.txt   # Python dependencies
@@ -136,3 +137,4 @@ It is possible submit pull requests, report bugs, or suggest new features.
 
 ## Additional Resources
 References are provided at the end of each chapter and are recommended for studing more.
+
