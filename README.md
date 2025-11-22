@@ -1,5 +1,8 @@
 # Foundations of Representation Learning
-Foundations of Representation Learning is a narrative-driven course that unfolds like a novel. Unlike traditional categorization-based approaches (supervised vs unsupervised), this course follows a conceptual storyline grounded in modern representation learning principles. The curriculum emphasizes end-to-end projects and practical implementation over theoretical categorization.
+Foundations of Representation Learning is a narrative-driven deep learning course that unfolds like a novel. Unlike traditional categorization-based approaches (supervised vs unsupervised) and statisitcal learning, this course follows a conceptual storyline grounded in modern representation learning principles. The curriculum emphasizes end-to-end projects and practical implementation over theoretical categorization.
+
+## Relationship to Statistical Learning
+This course focuses exclusively on representation learning through deep neural networks. For comprehensive coverage of classical machine learning methods including k-NN, SVM, Decision Trees, Random Forests, and statistical foundations, see the companion course [Foundations of Statistical Learning](https://github.com/AmirhosseinMuhammadi/statistical-learning). The two courses are designed to be complementary, with this course building upon the statistical foundations covered there.
 
 ## Course Narrative
 This course takes you on a journey through the fundamental concepts of representation learning, building each chapter upon the previous one to create a cohesive understanding of how modern AI systems learn and represent information.
@@ -136,3 +139,4 @@ It is possible submit pull requests, report bugs, or suggest new features.
 
 ## Additional Resources
 References are provided at the end of each chapter and are recommended for studing more.
+
