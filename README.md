@@ -12,10 +12,10 @@ The course is organized into the following chapters, each expressed in separate 
 - Chapter 2: Python Essentials
 - Chapter 3: Linearity
 - Chapter 4: Non-linearity
-- Chapter 5: Curse of Dimensionality
+- Chapter 5: Curse of Dimensionality and Spatial Representations
 - Chapter 6: Unsupervised Learning
 - Chapter 7: Sequences and Creativity
-- Chapter 8: Agentic AI
+- Chapter 8: Introduction to Agentic AI
 
 ## Prerequisites
 - Python 3.8 or higher
@@ -140,5 +140,3 @@ It is possible submit pull requests, report bugs, or suggest new features.
 
 ## Additional Resources
 References are provided at the end of each chapter and are recommended for studing more.
-
-
