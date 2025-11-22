@@ -140,3 +140,6 @@ It is possible submit pull requests, report bugs, or suggest new features.
 
 ## Additional Resources
 References are provided at the end of each chapter and are recommended for studing more.
+
+## License
+This project is intended for educational purposes. The original references and citations included in the notebook should be respected.
