@@ -71,6 +71,12 @@ representation-learning-foundations/
 │   ├── flask_app/
 │   └── fastapi_app/
 |
+├── data/
+│   ├── raw/           # Raw data files
+│   └── processed/     # Processed data files
+│
+├── figures/          # External images used in notebooks
+├── models/            # ML models
 ├── notebooks/        # Exploration and analysis
 │   ├── chapter_01_introduction.ipynb
 │   ├── chapter_02_python_essentials.ipynb
@@ -81,11 +87,6 @@ representation-learning-foundations/
 │   ├── chapter_07_sequences_and_creativity.ipynb
 │   └── chapter_08_agentic_ai.ipynb
 |
-├── figures/          # External images used in notebooks
-├── data/
-│   ├── raw/           # Raw data files
-│   └── processed/     # Processed data files
-│
 ├── src/               # Source code modules and production-ready ML code
 ├── tests/             # Shared tests
 ├── requirements.txt   # Python dependencies
@@ -139,4 +140,5 @@ It is possible submit pull requests, report bugs, or suggest new features.
 
 ## Additional Resources
 References are provided at the end of each chapter and are recommended for studing more.
+
 
